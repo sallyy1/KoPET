@@ -18,6 +18,7 @@ jsonlines
 sentencepiece
 ```
 
+## 2. Unlabeled dataset Annotation
 ```
 python cli.py --method ipet --pattern_ids 0 1 --data_dir cssharing_new --model_type korea_bert --model_name_or_path klue/bert-base --task_name cssharing-sentiment --output_dir CSsharing_Output_new --do_train --wrapper_type mlm --pet_repetitions 2 --ipet_generations 2
 ```
